@@ -54,5 +54,27 @@ h5 {
 }
 
 .dbaTeam {
-  margin-left: 20px;
+  margin: 0 10px 0 10px;
+}
+
+.teamMember {
+  border: 1px solid gray;
+  height: 150px;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #222222;
+}
+
+.teamMember img {
+  border: 2px solid #222222;
+}
+
+.descDBA {
+  font-family: helvetica;
+  font-size: 0.72em;
+  color: #222222;
+  margin: 0;
+  paddinmg: 0;
+
 }

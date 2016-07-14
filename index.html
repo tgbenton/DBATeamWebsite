@@ -15,9 +15,9 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar-collapse">
 
-  <div class="navbar navbar-inverse" id="header">
+  <div class="navbar navbar-inverse navbar-fixed-top" id="header">
     <div class="container">
       <div class="navbar-header">
         <img id="headerLogo" src="images/LogoGrayBkgdColor450.jpg" />
@@ -32,7 +32,7 @@
 
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li><a href="#dbaTeam">The Team</a></li>
+          <li><a href="#dbaTeamBox">The Team</a></li>
           <li><a href="#initiatives">Initiatives</a></li>
           <li><a href="#accomplishments">Accomplishments</a></li>
         </ul>
@@ -49,37 +49,88 @@
     </div>
   </div>
 
-  <div class="container">
+  <div class="container" id="dbaTeamBox">
     <div class="row">
       <div class="col-md-12 box"><h5>The Database Administration Team</h5></div>
 
        <div class="row dbaTeam">
-          <div class="col-md-3">
-            Tim Benton
+          <div class="col-md-3 teamMember">
+            <div class="col-md-6">
+              Tim Benton<br>
+              <img src="images/colorTim.jpg" />
+            </div>
+            <div class="col-md-6 descDBA">
+              <br>DBA Manager<br>
+            </div>
           </div>
-          <div class="col-md-3">
-            Srinivas Erolla
+
+          <div class="col-md-3 teamMember">
+            <div class="col-md-6">
+              Srinivas Erolla<br>
+              <img src="images/blankPortrait100.jpg" />
+            </div>
+            <div class="col-md-6 descDBA">
+              <br>Senior Oracle ERP DBA<br>
+            </div>
           </div>
-          <div class="col-md-3">
-            Venkat Chilukuri
+
+          <div class="col-md-3 teamMember">
+            <div class="col-md-6">
+              Venkat Chilukuri<br>
+              <img src="images/blankPortrait100.jpg" />
+            </div>
+            <div class="col-md-6 descDBA">
+              <br>Senior Oracle DBA<br>
+            </div>
           </div>
-          <div class="col-md-3">
-            Pramod Kasi
+
+          <div class="col-md-3 teamMember">
+            <div class="col-md-6">
+              Pramod Kasi<br>
+              <img src="images/blankPortrait100.jpg" />
+            </div>
+            <div class="col-md-6 descDBA">
+              <br>Senior SQL Server DBA<br>
+            </div>
           </div>
         </div>
 
         <div class="row dbaTeam">
-          <div class="col-md-3">
-            Vijay Golamari
+          <div class="col-md-3 teamMember">
+            <div class="col-md-6">
+              Vijay Golamari<br>
+              <img src="images/blankPortrait100.jpg" />
+            </div>
+            <div class="col-md-6 descDBA">
+              <br>Senior Oracle DBA<br>
+            </div>
           </div>
-          <div class="col-md-3">
-            Andrew Perera
+          <div class="col-md-3 teamMember">
+            <div class="col-md-6">
+              Andrew Perera<br>
+              <img src="images/blankPortrait100.jpg" />
+            </div>
+            <div class="col-md-6 descDBA">
+              <br>Senior Oracle ERP DBA<br>
+            </div>
           </div>
-          <div class="col-md-3">
-            Robin Chew
+          <div class="col-md-3 teamMember">
+            <div class="col-md-6">
+              Robin Chew<br>
+              <img src="images/blankPortrait100.jpg" />
+            </div>
+            <div class="col-md-6 descDBA">
+              <br>Oracle DBA<br>
+            </div>
           </div>
-          <div class="col-md-3">
-            Cedric Hendrix
+          <div class="col-md-3 teamMember">
+            <div class="col-md-6">
+              Cedric Hendrix<br>
+              <img src="images/blankPortrait100.jpg" />
+            </div>
+            <div class="col-md-6 descDBA">
+              <br>Junior Oracle DBA<br>
+            </div>
           </div>
         </div>
 
@@ -98,9 +149,11 @@
           <li class="list-group-item"><span class="glyphicon glyphicon-unchecked" class="uncheck"></span>Migrate scheduled database jobs to Oracle Enterprise Manager</li>
           <li class="list-group-item"><span class="glyphicon glyphicon-check" class="check"></span>Provide database support ParaTransit outsourcing to MV</li>
           <li class="list-group-item"><span class="glyphicon glyphicon-unchecked" class="uncheck"></span>Migrate Oracle Enterprise Business Suite middle-tier to VM servers</li>
-          <li class="list-group-item"><span class="glyphicon glyphicon-unchecked" class="uncheck"></span>Upgrade Oracle Enterprise Business SUite to 12.2.5</li>
+          <li class="list-group-item"><span class="glyphicon glyphicon-unchecked" class="uncheck"></span>Upgrade Oracle Enterprise Business Suite to 12.2.5</li>
           <li class="list-group-item"><span class="glyphicon glyphicon-unchecked" class="uncheck"></span>Move Automatic Fare Collection databases to Oracle Cluster system (RAC)</li>
           <li class="list-group-item"><span class="glyphicon glyphicon-unchecked" class="uncheck"></span>Renew Oracle licenses for 3 years</li>
+          <li class="list-group-item"><span class="glyphicon glyphicon-unchecked" class="uncheck"></span>SQL Server support for itsmarta.com upgrade</li>
+          <li class="list-group-item"><span class="glyphicon glyphicon-unchecked" class="uncheck"></span>SQL Server support for the new CCTV application</li>
         </ul>
       </div>
       <div class="col-md-6 box" id="accomplishments"><h5>FY16 Accomplishments</h5>
