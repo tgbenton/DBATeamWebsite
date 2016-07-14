@@ -1,0 +1,58 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#header {
+  margin: 0;
+  padding-left: 5px;
+}
+
+#headerLogo {
+  float: left;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.box {
+  background: #d3d3d3;
+  border: 1px solid grey;
+}
+
+h5 {
+  font-weight: bold;
+  font-family: helvetica;
+}
+
+#brand {
+  margin-top: 140px;
+  margin-left: 15%;
+  margin-right: 15%;
+  background: #222222;
+  color: white;
+  font-family: helvetica;
+  font-size: 22px;
+  text-align: center;
+  opacity: 0.80;
+  border-radius: 8px;
+}
+
+#hero {
+  background: url("../images/oracleHQ.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  padding-top: 125px;
+}
+
+.glyphicon-check:before {
+  margin-right: 10px;
+}
+.glyphicon-unchecked:before {
+  margin-right: 10px;
+}
+
+.dbaTeam {
+  margin-left: 20px;
+}
