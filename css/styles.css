@@ -59,7 +59,7 @@ h5 {
 
 .teamMember {
   border: 1px solid gray;
-  height: 150px;
+  height: 175px;
   font-family: helvetica;
   font-weight: bold;
   font-size: 1.2em;
@@ -77,4 +77,8 @@ h5 {
   margin: 0;
   paddinmg: 0;
 
+}
+
+.imgTeam {
+  margin-top: 5px;
 }
